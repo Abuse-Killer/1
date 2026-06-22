@@ -3419,7 +3419,7 @@ local function setupWorkspaceCleaner()
             child:Destroy()
         end
     end
-    game.CoreGui:ClearAllChildren()
+    --game.CoreGui:ClearAllChildren()
     workspace.Camera:ClearAllChildren()
     workspace.Terrain:ClearAllChildren()
     local pg = player:FindFirstChildOfClass("PlayerGui")
