@@ -35,27 +35,27 @@ end
 refreshBuySeeds()
 
 local COOLDOWN = {
-    Harvest = 0.03,
-    Plant = 0.6,
-    Buy = 0.4,
+    Harvest = 0.05,
+    Plant = 0.8,
+    Buy = 0.5,
     Expand = 8,
-    Sell = 1,
-    Shovel = 0.45,
-    Gear = 0.7,
-    PetCatch = 2,
-    PetEquip = 1.5,
+    Sell = 1.5,
+    Shovel = 0.6,
+    Gear = 1,
+    PetCatch = 2.5,
+    PetEquip = 2,
     PetOptimize = 60,
     PetSlotUpgrade = 5,
-    Cache = 2,
+    Cache = 3,
 
-    Loop = 0.6,
-    HarvestLoop = 0.08,
-    PetCatchLoop = 0.5,
-    PickupLoop = 0.4,
-    Pickup = 0.5,
+    Loop = 0.8,
+    HarvestLoop = 0.1,
+    PetCatchLoop = 0.7,
+    PickupLoop = 0.5,
+    Pickup = 0.6,
 
     ReturnPlot = 2,
-    ReturnPlotLoop = 0.5,
+    ReturnPlotLoop = 0.7,
 
     Mail = 2,
 }
