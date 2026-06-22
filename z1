@@ -35,25 +35,28 @@ end
 refreshBuySeeds()
 
 local COOLDOWN = {
-    Harvest = 0.02,
-    Plant = 0.5,
-    Buy = 0.3,
+    Harvest = 0.03,
+    Plant = 0.6,
+    Buy = 0.4,
     Expand = 8,
     Sell = 1,
-    Shovel = 0.35,
-    Gear = 0.55,
-    PetCatch = 1.5,
-    PetEquip = 1.2,
+    Shovel = 0.45,
+    Gear = 0.7,
+    PetCatch = 2,
+    PetEquip = 1.5,
     PetOptimize = 60,
     PetSlotUpgrade = 5,
     Cache = 2,
-    Loop = 0.5,
-    HarvestLoop = 0.05,
-    PetCatchLoop = 0.35,
-    PickupLoop = 0.3,
-    Pickup = 0.35,
+
+    Loop = 0.6,
+    HarvestLoop = 0.08,
+    PetCatchLoop = 0.5,
+    PickupLoop = 0.4,
+    Pickup = 0.5,
+
     ReturnPlot = 2,
-    ReturnPlotLoop = 0.4,
+    ReturnPlotLoop = 0.5,
+
     Mail = 2,
 }
 
@@ -1255,8 +1258,8 @@ local function tpToGarden(hrp)
     end
 end
 
-local TWEEN_STEP = 30
-local TWEEN_SPEED = 55
+local TWEEN_STEP = 5
+local TWEEN_SPEED = 5
 
 local function tweenTo(pos)
     local c = LocalPlayer.Character
