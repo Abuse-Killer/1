@@ -3037,7 +3037,7 @@ local function bootstrapStatsUI()
 
     local layout = Instance.new("UIListLayout", panel)
     layout.SortOrder = Enum.SortOrder.LayoutOrder
-    layout.HorizontalAlignment = Enum.HorizontalAlignment.Center; layout.Padding = UDim.new(0, 10)
+    layout.HorizontalAlignment = Enum.HorizontalAlignment.Center; layout.Padding = UDim.new(0, 15)
 
     local function mkLabel(order, size, color)
         local l = Instance.new("TextLabel")
