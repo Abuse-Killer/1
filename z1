@@ -3050,11 +3050,11 @@ local function bootstrapStatsUI()
         return l
     end
 
-    local lblMoney  = mkLabel(1, 20); local lblPets  = mkLabel(2, 20)
-    local lblPlants = mkLabel(3, 20); local lblFruit = mkLabel(4, 20)
-    local lblRainbow = mkLabel(5, 20, Color3.fromRGB(190, 120, 255))
-    local lblGold    = mkLabel(6, 20, Color3.fromRGB(255, 215, 0))
-    local lblPhase  = mkLabel(7, 16, Color3.fromRGB(150, 160, 180))
+    local lblMoney  = mkLabel(1, 60); local lblPets  = mkLabel(2, 20)
+    local lblPlants = mkLabel(3, 60); local lblFruit = mkLabel(4, 20)
+    local lblRainbow = mkLabel(5, 60, Color3.fromRGB(190, 120, 255))
+    local lblGold    = mkLabel(6, 60, Color3.fromRGB(255, 215, 0))
+    local lblPhase  = mkLabel(7, 66, Color3.fromRGB(150, 160, 180))
 
     local SharedModules = ReplicatedStorage:FindFirstChild("SharedModules")
     local TimeCycleData = SharedModules and SharedModules:FindFirstChild("TimeCycleData") and require(SharedModules.TimeCycleData)
